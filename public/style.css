@@ -1,0 +1,78 @@
+.main-container {
+  width: 100%;
+}
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.header {
+  padding: 20px;
+  background-color: blue;
+  text-align: center;
+  box-shadow: 0 2px 13px #777;
+  color: white;
+}
+.side-bar {
+  height: 88vh;
+  background-color: blue;
+  padding: 20px 0 0 0;
+  width: 200px;
+}
+.side-bar .menu {
+  display: flex;
+  flex-direction: column;
+}
+.side-bar .menu h3 {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border-bottom: 2px solid blue;
+  color: black;
+}
+.content {
+  width: 100%;
+}
+
+/* home css */
+.all-record {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #777;
+}
+.all-record h2 {
+  font-size: 22px;
+  font-weight: 500;
+}
+/* cutome card */
+.ant-card {
+  background-color: white;
+  border-radius: 5px;
+  height: 130px;
+}
+.ant-card h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: rgb(218, 216, 216);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.ant-card span {
+  text-align: center;
+}
+
+/* footer */
+.footer{
+  background-color: blue;
+  width: 100%;
+  height: 40px;
+  color: #fff;
+  text-align: center;
+}
+.ant-pagination{
+  display: flex;
+}
+.ant-pagination li{
+  display: inline;
+}
